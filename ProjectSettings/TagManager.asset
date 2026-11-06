@@ -2,8 +2,13 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Wall
+  - Bird
+  - Pipe
+  - Reward
+  - Background
   layers:
   - Default
   - TransparentFX
@@ -11,11 +16,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Wall
+  - Bird
+  - Pipe
+  - Reward
   - 
   - 
   - 
@@ -41,3 +46,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 3037511677
+    locked: 0
+  - name: Reward
+    uniqueID: 609993933
+    locked: 0
+  - name: Pipe
+    uniqueID: 1427422539
+    locked: 0
+  - name: Wall
+    uniqueID: 913449779
+    locked: 0
+  - name: Bird
+    uniqueID: 707941789
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
